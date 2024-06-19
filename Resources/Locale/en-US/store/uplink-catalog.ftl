@@ -219,6 +219,9 @@ uplink-ammo-bundle-desc = Reloading! Contains 4 magazines for the C-20r, 4 drums
 uplink-sniper-bundle-name = Sniper Bundle
 uplink-sniper-bundle-desc = An inconspicuous briefcase that contains a Hristov, 10 spare bullets and a convenient disguise.
 
+uplink-banjo-gun-name = concealed rifle in a banjo
+uplink-banjo-gun-desc = a rootin tootin banjo darn fine for shooting. uses .60 anti materiel ammunition
+
 uplink-c20r-bundle-name = C-20r Bundle
 uplink-c20r-bundle-desc = Old faithful: The classic C-20r Submachine Gun, bundled with three magazines.
 

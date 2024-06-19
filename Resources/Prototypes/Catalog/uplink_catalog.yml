@@ -118,6 +118,17 @@
       - NukeOpsUplink
 
 - type: listing
+  id: UplinkBanjoGun
+  name: uplink-banjo-gun-name
+  description: uplink-banjo-gun-desc
+  icon: { sprite: /Textures/Objects/Fun/Instruments/banjo.rsi, state: base }
+  productEntity: WeaponBanjoSniper 
+  cost:
+    Telecrystal: 8
+  categories:
+  - UplinkWeaponry
+
+- type: listing
   id: UplinkSniperBundle
   name: uplink-sniper-bundle-name
   description: uplink-sniper-bundle-desc

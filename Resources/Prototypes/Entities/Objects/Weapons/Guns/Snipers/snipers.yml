@@ -130,3 +130,21 @@
   - type: StaticPrice
     price: 0
 
+- type: entity
+  name: Banjo
+  parent: [BaseWeaponSniper, BaseGunWieldable, BanjoInstrument]
+  id: WeaponBanjoSniper
+  description: there's only going to be two shots. me shooting you, and me drinking this whiskey.
+  components:
+  - type: Sprite
+    sprite: Objects/Fun/Instruments/banjo.rsi
+  - type: Clothing
+    sprite: Objects/Fun/Instruments/banjo.rsi
+  - type: BallisticAmmoProvider
+    whitelist:
+      tags:
+      - CartridgeAntiMateriel
+    capacity: 5
+    proto: CartridgeAntiMateriel
+  - type: Instrument
+    program: 105
